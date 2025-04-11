@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import Mapped , mapped_column,DeclarativeBase
+from sqlalchemy.orm import Mapped , mapped_column
 from sqlalchemy import String, Integer , Float
 
 app = Flask(__name__)
